@@ -18,12 +18,82 @@ body {
 body {
   position: relative;
 }
-h1, h2 {
+h1 {
   font-family: 'COCOGOOSE', sans-serif;
 
 }
 p {
+  font-size: 17px;
+}
+p, h2, h3{
   font-family: 'Lato', sans-serif;
 }
 
 /*Actual body styling*/
+
+.DesktopNav, .logo {
+  display: none;
+}
+.header {
+  width: 100%;
+  background: url(../images/landingbg.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%;
+  position: relative;
+}
+.humburger {
+  height: 7%;
+}
+.humburger a img {
+  width: 30px;
+  margin: 24px 24px;
+}
+.mobileNav {
+  display: none;
+  width: 100%;
+  background: #fff;
+}
+.mobileNav ul li {
+  list-style-type: none;
+  text-align: center;
+  padding: 12px;
+}
+.mobileNav ul li a {
+  text-decoration: none;
+  color: #272a31;
+  transition: 0.5s;
+}
+.mobileNav ul li a:hover {
+  color: #ec5242;
+}
+
+/*main section now*/
+
+.main {
+  width: 100%;
+}
+.landingHeader {
+  margin: 35px 15px;
+  color: #ec5242;
+}
+.landingHeader h3 {
+  margin-bottom: 10px;
+}
+.landingBody {
+  margin: 30px 20px 20px 20px ;
+  border: 4px solid #fff;
+}
+.landingBody p {
+  padding: 15px;
+  color: #272a31;
+}
+.landingDesc {
+  color: #272a31;
+  margin: 24px;
+  padding-bottom: 45px;
+}
+.landingDesc h2 {
+  font-family: 'COCOGOOSE', sans-serif;
+}
