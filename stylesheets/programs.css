@@ -71,6 +71,7 @@ p, h2, h3{
 .activity h2 {
   flex: 1;
   color: #ec5242;
+  font-size: 24px;
   margin: auto 0;
   padding: 6px;
 }
@@ -79,4 +80,5 @@ p, h2, h3{
   color: #fff;
   font-size: 16px;
   padding: 9px;
+  margin: auto 0;
 }
