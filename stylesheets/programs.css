@@ -50,7 +50,7 @@ p, h2, h3{
 }
 .individualActivity {
   margin: 24px 20px 0 20px;
-  padding-bottom: 24px;
+  padding-bottom: 20px;
 }
 
 /* day activities section */
@@ -81,4 +81,26 @@ p, h2, h3{
   font-size: 16px;
   padding: 9px;
   margin: auto 0;
+}
+.programbtn {
+  margin: 0 auto;
+  padding-bottom: 30px;
+  text-align: center;
+}
+.programbtn button {
+  background: #ec5242;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+  border: 0;
+}
+button:hover {
+  color: #ec5242;
+  background: #fff;
+  border: 1px solid #ec5242;
+}
+button:active {
+  color: #fff;
+  background: #ec5242;
+  border: 0;
 }
