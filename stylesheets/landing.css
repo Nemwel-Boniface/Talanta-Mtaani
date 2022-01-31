@@ -94,7 +94,7 @@ p, h2, h3{
 }
 .landingDesc {
   color: #272a31;
-  margin: 24px;
+  margin: 24px 24px 0 24px;
   padding-bottom: 45px;
 }
 .landingDesc h2 {
