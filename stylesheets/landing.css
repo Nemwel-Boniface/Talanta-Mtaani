@@ -81,6 +81,9 @@ p, h2, h3{
 .landingHeader h3 {
   margin-bottom: 10px;
 }
+.landingHeader h1 {
+  font-size: 33px;
+}
 .landingBody {
   margin: 30px 20px 20px 20px ;
   border: 4px solid #fff;
@@ -96,4 +99,5 @@ p, h2, h3{
 }
 .landingDesc h2 {
   font-family: 'COCOGOOSE', sans-serif;
+  font-size: 30px;
 }
