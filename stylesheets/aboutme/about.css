@@ -89,7 +89,7 @@ p, h2, h3{
   background: linear-gradient(rgba(128,0,0,0.6), rgba(128,0,0,0.7)) ,url(../../images/crowd1.jpg);
   background-size: cover;
   background-position: center;
-  height: 25vh;
+  height: 30vh;
   width: 100%;
   position: relative;
 }
@@ -110,7 +110,7 @@ p, h2, h3{
   background: linear-gradient(rgba(128,0,0,0.7), rgba(128,0,0,0.7)) ,url(../../images/crowd2.jpeg);
   background-size: cover;
   background-position: center;
-  height: 25vh;
+  height: 30vh;
   width: 100%;
   position: relative;
 }
