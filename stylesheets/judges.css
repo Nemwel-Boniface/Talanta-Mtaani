@@ -100,3 +100,45 @@ p, h2, h3{
 .judgeRight p {
   font-size: 16px;
 }
+
+/*Responsive design -> Tablet version*/
+
+@media screen and (min-width: 768px ) {
+  .judgesHeading {
+    padding-top: 37px;
+    text-align: center;
+  }
+  .judgesHeading h2 {
+    font-size: 33px;
+  }
+  .judgesHeading hr {
+    margin: 0 47%;
+  }
+  .judgesSect {
+    margin: 5% 13%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 35px;
+  }
+}
+
+/*Responsive design -> Desktop version*/
+
+@media screen and (min-width: 1100px ) {
+  .judgesHeading {
+    padding-top: 40px;
+    text-align: center;
+  }
+  .judgesHeading h2 {
+    font-size: 35px;
+  }
+  .judgesHeading hr {
+    margin: 0 46%;
+  }
+  .judgesSect {
+    margin: 7% 20%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+  }
+}
