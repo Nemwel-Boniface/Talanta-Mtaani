@@ -101,3 +101,66 @@ p, h2, h3{
   font-family: 'COCOGOOSE', sans-serif;
   font-size: 30px;
 }
+
+/*Responsive design -> Desktop version*/
+
+@media screen and (min-width: 768px ) {
+  .mobileNav, .humburger {
+    display: none;
+  }
+  .DesktopNav, .logo {
+    display: block;
+  }
+  .header {
+    width: 100%;
+  }
+  .topnavbar {
+    display: flex;
+    justify-content: space-between;
+    background: #fff;
+  }
+  .logo img {
+    width: 150px;
+    margin-left: 70px;
+  }
+  .DesktopNav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 60px;
+    margin-right: 50px;
+  }
+  .DesktopNav ul li {
+    list-style-type: none;
+    margin-right: 40px;
+  }
+  .DesktopNav ul li a {
+    text-decoration: none;
+    color: #272a31;
+    font-size: 19px;
+    transition: 0.5s;
+  }
+  .DesktopNav ul li a:hover {
+   color: #ec5242;
+  }
+  .DesktopNav ul .bordered {
+    color: #ec5242;
+    border: 2px solid #ec5242;
+    padding: 10px;
+  }
+  .landing {
+    margin: 8% 15%;
+  }
+  .landingHeader h3 {
+    font-size: 29px;
+  }
+  .landingHeader h1 {
+    font-size: 50px;
+  }
+  .landingDesc h2 {
+    font-size: 34px;
+  }
+  .landingDesc p {
+    font-size: 20px;
+  }
+}
