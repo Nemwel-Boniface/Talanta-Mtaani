@@ -121,13 +121,13 @@ button:active {
     margin: 0 47%;
   }
   .individualActivity {
-    margin: 0 5%;
+    margin: 0 9%;
     display: flex;
     flex-wrap: wrap;
     gap: 15px;
   }
   .activity {
-    width: 23%;
+    width: 30%;
     display: block;
     text-align: center;
   }
