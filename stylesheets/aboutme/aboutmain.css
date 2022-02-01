@@ -1,0 +1,112 @@
+/*This file contains all the styling for the landing page for the about me page in Talanta mtaani project*/
+
+/*It was designed with a mobile first approach to design */
+
+@import url('http://fonts.cdnfonts.com/css/cocogoose');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+body {
+  position: relative;
+}
+h1 {
+  font-family: 'COCOGOOSE', sans-serif;
+
+}
+p {
+  font-size: 17px;
+}
+p, h2, h3{
+  font-family: 'Lato', sans-serif;
+}
+
+/*Actual body styling*/
+
+.DesktopNav, .logo {
+  display: none;
+}
+.header {
+  width: 100%;
+  background: url(../../images/landingbg.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%;
+  position: relative;
+}
+.humburger {
+  height: 7%;
+}
+.humburger a img {
+  width: 30px;
+  margin: 24px 24px;
+}
+.mobileNav {
+  display: none;
+  width: 100%;
+  background: #fff;
+}
+.mobileNav ul li {
+  list-style-type: none;
+  text-align: center;
+  padding: 12px;
+}
+.mobileNav ul li a {
+  text-decoration: none;
+  color: #272a31;
+  transition: 0.5s;
+}
+.mobileNav ul li a:hover {
+  color: #ec5242;
+}
+
+/*main section now*/
+
+.main {
+  width: 100%;
+}
+.aboutHeader {
+  margin: 35px 15px;
+  color: #ec5242;
+  text-align: center;
+}
+.aboutHeader h3 {
+  margin-bottom: 10px;
+}
+.aboutHeader h1 {
+  font-size: 33px;
+}
+.aboutBody {
+  margin: 30px 20px 20px 20px ;
+  background-color: #fff;
+  text-align: center;
+}
+.aboutBody p {
+  padding: 15px;
+  color: #272a31;
+}
+.aboutDesc {
+  color: #272a31;
+  margin: 24px 24px 0 24px;
+  padding-bottom: 45px;
+  text-align: center;
+}
+.aboutDesc p {
+  margin-bottom: 6px;
+}
+.aboutDesc p a {
+  color: #272a31;
+  transition: 0.5s;
+}
+.aboutDesc p a:hover {
+  color: #ec5242;
+}
