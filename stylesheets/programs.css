@@ -106,3 +106,76 @@ button:active {
   background: #ec5242;
   border: 0;
 }
+
+/*Responsive design -> Tablet version*/
+
+@media screen and (min-width: 768px ) {
+  .dayProgramHeader {
+    padding-top: 37px;
+    text-align: center;
+  }
+  .dayProgramHeader h2 {
+    font-size: 33px;
+  }
+  .dayProgramHeader hr {
+    margin: 0 47%;
+  }
+  .individualActivity {
+    margin: 0 5%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+  .activity {
+    width: 23%;
+    display: block;
+    text-align: center;
+  }
+  .activity img {
+    padding-top: 10px;
+    width: 38%;
+    height: 35%;
+  }
+  .programbtn button {
+    border: 0;
+    background: 0;
+    text-decoration: underline;
+  }
+}
+
+/*Responsive design -> Desktop version*/
+
+@media screen and (min-width: 1100px ) {
+  .dayProgramHeader {
+    padding-top: 40px;
+    text-align: center;
+  }
+  .dayProgramHeader h2 {
+    font-size: 35px;
+  }
+  .dayProgramHeader hr {
+    margin: 0 46%;
+  }
+  .individualActivity {
+    text-align: center;
+    margin: 0 6%;
+    display: flex;
+    gap: 20px;
+  }
+  .activity {
+    width: 18%;
+    display: block;
+    text-align: center;
+  }
+  .activity img {
+    padding-top: 10px;
+    width: 37%;
+    height: 34%;
+  }
+  .activity p {
+   font-size: 17px;
+  }
+  .programbtn button {
+    padding-bottom: 40px;
+  }
+}
