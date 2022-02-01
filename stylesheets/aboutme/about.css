@@ -58,3 +58,70 @@ p, h2, h3{
 .aboutMainLogo img {
   max-width: 100%;
 }
+
+/* Past events section */
+
+.pastEvents {
+  /* margin: 55px 30px 20px 30px; */
+}
+.pastEvents h2 {
+  margin: 55px 30px 20px 30px;
+  color: #272a31;
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.pastEvents p {
+  margin: 0 20px 40px 20px;
+  color: #272a31;
+  text-align: center;
+}
+
+.events {
+  margin: 20px 30px 30px 30px;
+}
+.events>div {
+  margin-bottom: 20px;
+}
+.event1 {
+  text-align: center;
+  color: #fff;
+  background: linear-gradient(rgba(128,0,0,0.6), rgba(128,0,0,0.7)) ,url(../../images/crowd1.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 25vh;
+  width: 100%;
+  position: relative;
+}
+.event1 h2 {
+  font-size: 33px;
+  position: absolute;
+  bottom: 55%;
+  left: 40%;
+}
+.event1 p {
+  position: absolute;
+  bottom: 35%;
+  left: 12%;
+}
+.event2 {
+  text-align: center;
+  color: #fff;
+  background: linear-gradient(rgba(128,0,0,0.7), rgba(128,0,0,0.7)) ,url(../../images/crowd2.jpeg);
+  background-size: cover;
+  background-position: center;
+  height: 25vh;
+  width: 100%;
+  position: relative;
+}
+.event2 h2 {
+  font-size: 33px;
+  position: absolute;
+  bottom: 55%;
+  left: 40%;
+}
+.event2 p {
+  position: absolute;
+  bottom: 35%;
+  left: 12%;
+}
