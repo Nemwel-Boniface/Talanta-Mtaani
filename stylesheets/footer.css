@@ -75,6 +75,9 @@ p, h2, h3{
 }
 .footer .footerLeft img {
   max-width: 100%;
+  animation: bouge 0.92s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+  animation-iteration-count: 1;
+  transform: translateX(0);
 }
 .footer .footerRight {
   margin: auto auto;

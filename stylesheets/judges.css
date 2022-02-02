@@ -66,6 +66,10 @@ p, h2, h3{
   top: 0;
   left: 0;
   flex: 1;
+  transition: transform 0.5s;
+}
+.judgeLeft:hover {
+  transform: translateY(-7px);
 }
 .judgeLeft img {
   max-width: 100%;
@@ -85,7 +89,11 @@ p, h2, h3{
   opacity: .7;
 }
 .judgeRight {
+  transition: transform 0.5s;
   flex: 1;
+}
+.judgeRight:hover {
+  transform: translateY(7px);
 }
 .judgeRight h2 {
   font-size: 20px;

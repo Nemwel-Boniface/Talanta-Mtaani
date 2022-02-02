@@ -61,6 +61,10 @@ p, h2, h3{
   justify-content: space-between;
   background: rgba(211,211,211, 0.2);
   margin: 20px 0;
+  transition: transform 0.5s;
+}
+.activity:hover {
+  transform: translateY(-8px);
 }
 .activity img {
   flex: 1;
@@ -95,8 +99,10 @@ p, h2, h3{
   padding: 15px;
   font-size: 18px;
   border: 0;
+  transition: transform 0.5s;
 }
 button:hover {
+  transform: translateY(-8px);
   color: #ec5242;
   background: #fff;
   border: 1px solid #ec5242;

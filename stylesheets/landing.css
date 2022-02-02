@@ -64,6 +64,7 @@ p, h2, h3{
   text-decoration: none;
   color: #272a31;
   transition: 0.5s;
+  transition: transform 0.5s;
 }
 .mobileNav ul li a:hover {
   color: #ec5242;
@@ -122,7 +123,33 @@ p, h2, h3{
   .logo img {
     width: 100px;
     margin-left: 50px;
+    animation: bouge 0.92s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+  animation-iteration-count: 1;
+  transform: translateX(0);
   }
+  @keyframes bouge {
+    10%,
+    90% {
+      transform: translateX(-1px);
+    }
+
+    20%,
+    80% {
+      transform: translateX(2px);
+    }
+
+    30%,
+    50%,
+    70% {
+      transform: translateX(-4px);
+    }
+
+    40%,
+    60% {
+      transform: translateX(4px);
+    }
+  }
+
   .DesktopNav ul {
     display: flex;
     align-items: center;
@@ -138,9 +165,10 @@ p, h2, h3{
     text-decoration: none;
     color: #272a31;
     font-size: 18px;
-    transition: 0.5s;
+    transition: transform 0.5s;
   }
   .DesktopNav ul li a:hover {
+    transform: translateY(-8px);
    color: #ec5242;
   }
   .DesktopNav ul .bordered {
