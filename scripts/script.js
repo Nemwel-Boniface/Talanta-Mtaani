@@ -1,28 +1,27 @@
-let menu = document.querySelector('#menu');
-let mobilenav = document.querySelector('.mobileNav');
-let menulist = document.querySelectorAll('#nav li a')
-
-menu.addEventListener('click', toggleMenu);
+const menu = document.querySelector('#menu');
+const mobilenav = document.querySelector('.mobileNav');
+const menulist = document.querySelectorAll('#nav li a');
 
 function toggleMenu() {
-  if(mobilenav.style.display === 'none') {
+  if (mobilenav.style.display === 'none') {
     mobilenav.style.display = 'block';
     menu.src = 'images/close.png';
-  }
-  else {
+  } else {
     mobilenav.style.display = 'none';
     menu.src = 'images/menu.png';
   }
 }
 
-menulist.forEach((list) => {
-  list.addEventListener('click', hideMenu);
-});
+menu.addEventListener('click', toggleMenu);
 
 function hideMenu() {
   mobilenav.style.display = 'none';
   menu.src = 'images/menu.png';
 }
+
+menulist.forEach((list) => {
+  list.addEventListener('click', hideMenu);
+});
 
 const judgesList = [
   {
