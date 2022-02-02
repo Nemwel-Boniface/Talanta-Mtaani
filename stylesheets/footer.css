@@ -68,6 +68,7 @@ p, h2, h3{
   width: 100%;
   margin: 24px;
   display: flex;
+  justify-content: center;
 }
 .footer .footerLeft {
   flex: 1;
@@ -117,10 +118,17 @@ p, h2, h3{
   .footer {
     background: #f1f5f7;
     margin: 0;
+    position: relative;
   }
   .footerLeft img {
+    position: relative;
+    left: 45%;
     width: 60%;
     margin-left: 20%;
+  }
+  .footerRight p {
+    position: relative;
+    left: 16%;
   }
 }
 
