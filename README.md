@@ -2,7 +2,7 @@
 
 # Talanta Mtaani
 
-> "Talanta Mtaani" is a mock project I have done for my Microverse portal module.
+> "Talanta Mtaani" is a mock project I have done for my Microverse portal module. The project is about a music competition that aims to help the underprevileged young people to showcase their talents. With the hope that they will get a platform to sign deals and start producing professional music.
 > The project consists of two pages:
 - Home page
 - About page
@@ -14,6 +14,8 @@
 ![screenshot](./images/TalantaMS-DV.png)
 
 This project is proof of my understanding of HTML-5, CSS3, Javascript DOM manipulation, Github flow, CSS animations and transitions, how to document my work professionally.
+- The design if from [Cindy Shin](https://www.behance.net/adagio07) The design its self can be viewed [here](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
+- The logo I used is from [this](https://hatchful.shopify.com/onboarding/brand-values) website.
 
 ## Built With
 
