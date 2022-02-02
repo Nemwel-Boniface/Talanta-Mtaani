@@ -26,7 +26,7 @@ This project is proof of my understanding of HTML-5, CSS3, Javascript DOM manipu
 - Google font awesome icons
 
 ## Live Demo
-Live site URL to portfolio
+Live site URL
 [Live Demo Link](https://nemwel-boniface.github.io/Talanta-Mtaani/)
 
 
@@ -84,9 +84,9 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 Major thanks to
-- [Sa Nene](https://www.instagram.com/iamsamuelmunene/)
-- [Cecilia Mwariri](https://www.instagram.com/cecilia_mwariri/)
-- [Virginia Wanjiru](https://www.instagram.com/v.e.e_wanjiru_/)
+- Judge 5 [Sa Nene](https://www.instagram.com/iamsamuelmunene/)
+- Judge 2 [Cecilia Mwariri](https://www.instagram.com/cecilia_mwariri/)
+- Judge 4 [Virginia Wanjiru](https://www.instagram.com/v.e.e_wanjiru_/)
 
 ## 📝 License
 
