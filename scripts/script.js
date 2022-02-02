@@ -84,7 +84,7 @@ function generateSection() {
   judgesSection.innerHTML = '';
   for (let i = 0; i < judgesList.length; i += 1) {
     judgesSection.innerHTML = `${judgesSection.innerHTML}
-    <div class="judge">
+    <div class="judge" id="${judgesList[i].id}">
           <div class="judgeLeft">
             <img class="jj" src="${judgesList[i].judgeImg}" alt="${judgesList[i].alt}">
             <img class="bg" src="${judgesList[i].chessBoard}" alt="judge image bg">
