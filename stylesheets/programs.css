@@ -1,0 +1,215 @@
+/* This file contains all the styling for the programs section for the Talanta mtaani project */
+
+/* It was designed with a mobile first approach to design */
+
+@import url('http://fonts.cdnfonts.com/css/cocogoose');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+body {
+  position: relative;
+}
+
+h1 {
+  font-family: 'COCOGOOSE', sans-serif;
+}
+
+p {
+  font-size: 17px;
+}
+
+p,
+h2,
+h3 {
+  font-family: 'Lato', sans-serif;
+}
+
+/* section styling */
+
+.dayProgram {
+  width: 100%;
+  background: #272a31;
+}
+
+.dayProgramHeader {
+  text-align: center;
+  padding: 24px 0;
+}
+
+.dayProgram h2 {
+  margin-bottom: 15px;
+  color: #fff;
+  font-size: 32px;
+}
+
+.dayProgram hr {
+  border-bottom: 4px solid #ec5242;
+  margin: 0 40%;
+}
+
+.individualActivity {
+  margin: 24px 20px 0 20px;
+  padding-bottom: 20px;
+}
+
+/* day activities section */
+
+.activity {
+  display: flex;
+  justify-content: space-between;
+  background: rgba(211, 211, 211, 0.2);
+  margin: 20px 0;
+  transition: transform 0.5s;
+}
+
+.activity:hover {
+  transform: translateY(-8px);
+}
+
+.activity img {
+  flex: 1;
+  width: 15%;
+  height: 15%;
+  padding: 9px;
+  margin: auto 0;
+}
+
+.activity h2 {
+  flex: 1;
+  color: #ec5242;
+  font-size: 24px;
+  margin: auto 0;
+  padding: 6px;
+}
+
+.activity p {
+  flex: 2;
+  color: #fff;
+  font-size: 16px;
+  padding: 9px;
+  margin: auto 0;
+}
+
+.programbtn {
+  margin: 0 auto;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.programbtn button {
+  background: #ec5242;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+  font-size: 18px;
+  border: 0;
+  transition: transform 0.5s;
+}
+
+button:hover {
+  transform: translateY(-8px);
+  color: #ec5242;
+  background: #fff;
+  border: 1px solid #ec5242;
+}
+
+button:active {
+  color: #fff;
+  background: #ec5242;
+  border: 0;
+}
+
+/* Responsive design -> Tablet version */
+
+@media screen and (min-width: 768px) {
+  .dayProgramHeader {
+    padding-top: 37px;
+    text-align: center;
+  }
+
+  .dayProgramHeader h2 {
+    font-size: 33px;
+  }
+
+  .dayProgramHeader hr {
+    margin: 0 47%;
+  }
+
+  .individualActivity {
+    margin: 0 9%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+
+  .activity {
+    width: 30%;
+    display: block;
+    text-align: center;
+  }
+
+  .activity img {
+    padding-top: 10px;
+    width: 38%;
+    height: 35%;
+  }
+
+  .programbtn button {
+    border: 0;
+    background: 0;
+    text-decoration: underline;
+  }
+}
+
+/* Responsive design -> Desktop version */
+
+@media screen and (min-width: 1100px) {
+  .dayProgramHeader {
+    padding-top: 40px;
+    text-align: center;
+  }
+
+  .dayProgramHeader h2 {
+    font-size: 35px;
+  }
+
+  .dayProgramHeader hr {
+    margin: 0 46%;
+  }
+
+  .individualActivity {
+    text-align: center;
+    margin: 0 6%;
+    display: flex;
+    gap: 20px;
+  }
+
+  .activity {
+    width: 18%;
+    display: block;
+    text-align: center;
+  }
+
+  .activity img {
+    padding-top: 10px;
+    width: 37%;
+    height: 34%;
+  }
+
+  .activity p {
+    font-size: 17px;
+  }
+
+  .programbtn button {
+    padding-bottom: 40px;
+  }
+}

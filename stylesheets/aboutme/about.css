@@ -1,0 +1,268 @@
+/* This file contains all the styling for the about me page for the about me page in Talanta mtaani project */
+
+/* It was designed with a mobile first approach to design */
+
+@import url('http://fonts.cdnfonts.com/css/cocogoose');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+body {
+  position: relative;
+}
+
+h1 {
+  font-family: 'COCOGOOSE', sans-serif;
+}
+
+p {
+  font-size: 17px;
+}
+
+p,
+h2,
+h3 {
+  font-family: 'Lato', sans-serif;
+}
+
+/* Actual body styling */
+
+.mobileHide {
+  display: none;
+}
+
+.aboutMain {
+  width: 100%;
+  background: #fff;
+}
+
+.aboutMainHeader {
+  margin: 24px 30px 20px 30px;
+}
+
+.aboutMainHeader h2 {
+  color: #272a31;
+  text-align: center;
+  font-size: 30px;
+}
+
+.aboutmainDesc {
+  margin: 14px 30px 20px 30px;
+}
+
+.aboutmainDesc p {
+  color: #272a31;
+  text-align: center;
+}
+
+.aboutMainLogo {
+  margin: 14px 30px 20px 30px;
+  border: 2px solid #d3d3d3;
+  transition: transform 0.5s;
+}
+
+.aboutMainLogo:hover {
+  transform: translateY(-7px);
+}
+
+.aboutMainLogo img {
+  max-width: 100%;
+}
+
+/* Past events section */
+
+.pastEvents h2 {
+  margin: 55px 30px 20px 30px;
+  color: #272a31;
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.pastEvents p {
+  margin: 0 20px 40px 20px;
+  color: #272a31;
+  text-align: center;
+}
+
+.events {
+  margin: 20px 30px 30px 30px;
+}
+
+.event1,
+.event2 {
+  transition: transform 0.5s;
+}
+
+.events > div {
+  margin-bottom: 20px;
+}
+
+.event1 {
+  text-align: center;
+  color: #fff;
+  background: linear-gradient(rgba(128, 0, 0, 0.6), rgba(128, 0, 0, 0.7)), url(../../images/crowd1.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 30vh;
+  width: 100%;
+  position: relative;
+}
+
+.event1 h2 {
+  font-size: 33px;
+  position: absolute;
+  bottom: 55%;
+  left: 40%;
+}
+
+.event1 p {
+  position: absolute;
+  bottom: 35%;
+  left: 12%;
+}
+
+.event2 {
+  text-align: center;
+  color: #fff;
+  background: linear-gradient(rgba(128, 0, 0, 0.7), rgba(128, 0, 0, 0.7)), url(../../images/crowd2.jpeg);
+  background-size: cover;
+  background-position: center;
+  height: 30vh;
+  width: 100%;
+  position: relative;
+}
+
+.event2 h2 {
+  font-size: 33px;
+  position: absolute;
+  bottom: 55%;
+  left: 40%;
+}
+
+.event2 p {
+  position: absolute;
+  bottom: 35%;
+  left: 12%;
+}
+
+.event1:hover,
+.event2:hover {
+  transform: translateY(-7px);
+}
+
+/* Responsive design -> Tablet version */
+
+@media screen and (min-width: 768px) {
+  .desktopHide {
+    display: none;
+  }
+
+  .mobileHide {
+    display: block;
+  }
+
+  .aboutMainHeader {
+    margin: 40px 0;
+    font-size: 35px;
+  }
+
+  .aboutmainDesc {
+    margin: 40px 200px;
+  }
+
+  .aboutMainLogo {
+    margin: 40px 250px;
+  }
+
+  .aboutMainLogo img {
+    width: 100%;
+  }
+
+  /* Events */
+  .pastEvents h2 {
+    padding: 30px 0;
+    font-size: 35px;
+  }
+
+  .pastEvents p {
+    font-size: 18px;
+    margin: 0 60px;
+  }
+
+  .events {
+    margin: 40px 100px;
+    display: flex;
+    gap: 20px;
+  }
+
+  .event1 p {
+    position: absolute;
+    bottom: 32%;
+    left: 10%;
+    font-size: 18px;
+  }
+
+  .event2 p {
+    position: absolute;
+    bottom: 32%;
+    left: 10%;
+    font-size: 18px;
+  }
+}
+
+/* Responsive design -> Desktop version */
+
+@media screen and (min-width: 1080px) {
+  .aboutMainHeader {
+    margin: 40px 0;
+    font-size: 35px;
+  }
+
+  .aboutmainDesc {
+    margin: 40px 200px;
+  }
+
+  .aboutMainLogo {
+    margin: 40px 350px;
+  }
+
+  /* Events */
+  .pastEvents h2 {
+    padding: 30px 0;
+    font-size: 40px;
+  }
+
+  .pastEvents p {
+    font-size: 19px;
+    margin: 0 80px;
+  }
+
+  .events {
+    margin: 40px 100px;
+    display: flex;
+    gap: 20px;
+  }
+
+  .event1 p {
+    position: absolute;
+    bottom: 35%;
+    left: 25%;
+    font-size: 19px;
+  }
+
+  .event2 p {
+    position: absolute;
+    bottom: 35%;
+    left: 25%;
+    font-size: 19px;
+  }
+}
