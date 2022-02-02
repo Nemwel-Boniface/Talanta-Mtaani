@@ -29,6 +29,9 @@ This project is proof of my understanding of HTML-5, CSS3, Javascript DOM manipu
 Live site URL
 [Live Demo Link](https://nemwel-boniface.github.io/Talanta-Mtaani/)
 
+## Project Presentation
+
+The presentation of my project can be viewed from [here](https://www.loom.com/share/803465fdade6402f8fd325916e4e3fca)
 
 ## Getting Started
 
