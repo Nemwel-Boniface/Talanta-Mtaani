@@ -101,12 +101,23 @@ p, h2, h3{
   }
   .partnersSect {
     display: flex;
-align-items: center;
-    margin: 6% 12vh 0 12vh;
+    justify-content: center;
+    margin: 6% 100px 0 100px;
     padding-bottom: 6%;
   }
   .partnersSect h3 {
     font-size: 25px;
+  }
+  .footerRight p {
+    font-size: 19px;
+  }
+  .footer {
+    background: #f1f5f7;
+    margin: 0;
+  }
+  .footerLeft img {
+    width: 60%;
+    margin-left: 20%;
   }
 }
 

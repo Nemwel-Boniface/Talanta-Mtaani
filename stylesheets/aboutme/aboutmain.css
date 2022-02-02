@@ -110,3 +110,25 @@ p, h2, h3{
 .aboutDesc p a:hover {
   color: #ec5242;
 }
+
+/*Responsive design -> Tablet version*/
+
+@media screen and (min-width: 768px ) {
+  .aboutHeader h3 {
+    font-size: 27px;
+  }
+  .aboutHeader h1 {
+    font-size: 45px;
+  }
+  .aboutHeader h2 {
+    font-size: 32px;
+  }
+  .aboutBody p {
+    font-size: 18px;
+    padding: 15px;
+  }
+  .aboutDesc p {
+    font-size: 18px;
+    padding: 5px;
+  }
+}

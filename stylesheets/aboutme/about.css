@@ -31,6 +31,10 @@ p, h2, h3{
 
 /*Actual body styling*/
 
+.mobileHide{
+  display: none;
+}
+
 .aboutMain {
   width: 100%;
   background: #fff;
@@ -124,4 +128,47 @@ p, h2, h3{
   position: absolute;
   bottom: 35%;
   left: 12%;
+}
+
+/*Responsive design -> Tablet version*/
+
+@media screen and (min-width: 768px ) {
+  .desktopHide {
+    display: none;
+  }
+  .mobileHide {
+    display: block;
+  }
+  .aboutMainHeader {
+    margin: 40px 0;
+    font-size: 35px;
+  }
+  .aboutmainDesc {
+    margin: 40px 200px;
+  }
+  .aboutMainLogo {
+    margin: 40px 350px;
+  }
+  .aboutMainLogo img {
+    width: 100%;
+  }
+
+  /* Events */
+  .events {
+    margin: 40px 100px;
+    display: flex;
+    gap: 20px;
+  }
+  .event1 p {
+    position: absolute;
+    bottom: 35%;
+    left: 25%;
+    font-size: 19px;
+  }
+  .event2 p {
+    position: absolute;
+    bottom: 35%;
+    left: 25%;
+    font-size: 19px;
+  }
 }
