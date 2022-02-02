@@ -36,7 +36,8 @@ h3 {
 /* Actual body styling */
 
 .DesktopNav,
-.logo {
+.logo,
+.socialicons {
   display: none;
 }
 
@@ -131,8 +132,53 @@ h3 {
   }
 
   .DesktopNav,
-  .logo {
+  .logo,
+  .socialicons {
     display: block;
+  }
+
+  .socialicons {
+    width: 100%;
+    background: #272a31;
+  }
+
+  .socialicons ul {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10%;
+  }
+
+  .socialicons ul li {
+    list-style-type: none;
+    padding: 10px 0;
+    transition: transform 0.5s;
+  }
+
+  .DesktopNav ul li {
+    list-style-type: none;
+    margin-right: 20px;
+  }
+
+  .socialicons ul li:hover {
+    transform: translateY(-4px);
+  }
+
+  .socialicons ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding-right: 20px;
+    transition: 0.5s;
+  }
+
+  .DesktopNav ul li a {
+    text-decoration: none;
+    color: #272a31;
+    font-size: 18px;
+    transition: transform 0.5s;
+  }
+
+  .socialicons ul li a:hover {
+    color: #ec5242;
   }
 
   .header {
@@ -182,18 +228,6 @@ h3 {
     justify-content: space-around;
     margin-top: 35px;
     margin-right: 20px;
-  }
-
-  .DesktopNav ul li {
-    list-style-type: none;
-    margin-right: 20px;
-  }
-
-  .DesktopNav ul li a {
-    text-decoration: none;
-    color: #272a31;
-    font-size: 18px;
-    transition: transform 0.5s;
   }
 
   .DesktopNav ul li a:hover {
