@@ -54,6 +54,7 @@ p, h2, h3{
   margin: 10px 16px 0 16px;
   padding-bottom: 30px;
   display: flex;
+  align-items: center;
   flex-wrap: wrap;
 }
 .partnersSect h3 {
@@ -67,7 +68,6 @@ p, h2, h3{
   width: 100%;
   margin: 24px;
   display: flex;
-  /* gap: 10px; */
 }
 .footer .footerLeft {
   flex: 1;
@@ -83,4 +83,51 @@ p, h2, h3{
 .footerRight p {
   font-size: 17px;
   color: #272a31;
+}
+
+
+/*Responsive design -> Tablet version*/
+
+@media screen and (min-width: 768px ) {
+  .partnersHeader {
+    padding-top: 37px;
+    text-align: center;
+  }
+  .partnersHeader h2 {
+    font-size: 33px;
+  }
+  .partnersHeader hr {
+    margin: 0 47%;
+  }
+  .partnersSect {
+    display: flex;
+align-items: center;
+    margin: 6% 12vh 0 12vh;
+    padding-bottom: 6%;
+  }
+  .partnersSect h3 {
+    font-size: 25px;
+  }
+}
+
+/*Responsive design -> Desktop version*/
+
+@media screen and (min-width: 1100px ) {
+  .partnersHeader {
+    padding-top: 40px;
+    text-align: center;
+  }
+  .partnersHeader h2 {
+    font-size: 35px;
+  }
+  .partnersHeader hr {
+    margin: 0 46%;
+  }
+  .partnersSect {
+    margin: 6% 16vh 0 16vh;
+    padding-bottom: 7%;
+  }
+  .partnersSect h3 {
+    font-size: 29px;
+  }
 }
