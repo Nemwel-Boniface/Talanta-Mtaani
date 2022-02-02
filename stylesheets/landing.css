@@ -1,10 +1,10 @@
-/*This file contains all the styling for the landing page for the Talanta mtaani project*/
+/* This file contains all the styling for the landing page for the Talanta mtaani project */
 
-/*It was designed with a mobile first approach to design */
+/* It was designed with a mobile first approach to design */
 
 @import url('http://fonts.cdnfonts.com/css/cocogoose');
 
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -18,22 +18,28 @@ body {
 body {
   position: relative;
 }
+
 h1 {
   font-family: 'COCOGOOSE', sans-serif;
-
 }
+
 p {
   font-size: 17px;
 }
-p, h2, h3{
+
+p,
+h2,
+h3 {
   font-family: 'Lato', sans-serif;
 }
 
-/*Actual body styling*/
+/* Actual body styling */
 
-.DesktopNav, .logo {
+.DesktopNav,
+.logo {
   display: none;
 }
+
 .header {
   width: 100%;
   background: url(../images/landingbg.jpeg);
@@ -43,90 +49,110 @@ p, h2, h3{
   max-width: 100%;
   position: relative;
 }
+
 .humburger {
   height: 7%;
 }
+
 .humburger a img {
   width: 30px;
   margin: 24px 24px;
 }
+
 .mobileNav {
   display: none;
   width: 100%;
   background: #fff;
 }
+
 .mobileNav ul li {
   list-style-type: none;
   text-align: center;
   padding: 12px;
 }
+
 .mobileNav ul li a {
   text-decoration: none;
   color: #272a31;
   transition: 0.5s;
   transition: transform 0.5s;
 }
+
 .mobileNav ul li a:hover {
   color: #ec5242;
 }
 
-/*main section now*/
+/* main section now */
 
 .main {
   width: 100%;
 }
+
 .landingHeader {
   margin: 35px 15px;
   color: #ec5242;
 }
+
 .landingHeader h3 {
   margin-bottom: 10px;
 }
+
 .landingHeader h1 {
   font-size: 33px;
 }
+
 .landingBody {
-  margin: 30px 20px 20px 20px ;
+  margin: 30px 20px 20px 20px;
   border: 4px solid #fff;
 }
+
 .landingBody p {
   padding: 15px;
   color: #272a31;
 }
+
 .landingDesc {
   color: #272a31;
   margin: 24px 24px 0 24px;
   padding-bottom: 45px;
 }
+
 .landingDesc h2 {
   font-family: 'COCOGOOSE', sans-serif;
   font-size: 30px;
 }
 
-/*Responsive design -> Tablet version*/
+/* Responsive design -> Tablet version */
 
-@media screen and (min-width: 768px ) {
-  .mobileNav, .humburger {
+@media screen and (min-width: 768px) {
+  .mobileNav,
+  .humburger {
     display: none;
   }
-  .DesktopNav, .logo {
+
+  .DesktopNav,
+  .logo {
     display: block;
   }
+
   .header {
     width: 100%;
   }
+
   .topnavbar {
     display: flex;
     justify-content: space-between;
     background: #fff;
   }
+
   .logo img {
     width: 100px;
     margin-left: 50px;
     animation: bouge 0.92s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
-  animation-iteration-count: 1;
-  transform: translateX(0);
+    animation-iteration-count: 1;
+    transform: translateX(0);
   }
+
   @keyframes bouge {
     10%,
     90% {
@@ -157,69 +183,86 @@ p, h2, h3{
     margin-top: 35px;
     margin-right: 20px;
   }
+
   .DesktopNav ul li {
     list-style-type: none;
     margin-right: 20px;
   }
+
   .DesktopNav ul li a {
     text-decoration: none;
     color: #272a31;
     font-size: 18px;
     transition: transform 0.5s;
   }
+
   .DesktopNav ul li a:hover {
     transform: translateY(-8px);
-   color: #ec5242;
+    color: #ec5242;
   }
+
   .DesktopNav ul .bordered {
     color: #ec5242;
     border: 2px solid #ec5242;
     padding: 10px;
   }
+
   .DesktopNav ul .bordered:hover {
     color: #272a31;
     border: 2px solid #272a31;
     padding: 8px;
   }
+
   .landing {
     margin: 7% 13% 0 13%;
     padding-bottom: 7%;
   }
+
   .landingHeader h3 {
     font-size: 27px;
   }
+
   .landingHeader h1 {
     font-size: 45px;
   }
+
   .landingDesc h2 {
     font-size: 32px;
   }
+
   .landingDesc p {
     font-size: 18px;
   }
 }
 
-/*Responsive design -> Desktop version*/
+/* Responsive design -> Desktop version */
 
-@media screen and (min-width: 1080px ) {
-  .mobileNav, .humburger {
+@media screen and (min-width: 1080px) {
+  .mobileNav,
+  .humburger {
     display: none;
   }
-  .DesktopNav, .logo {
+
+  .DesktopNav,
+  .logo {
     display: block;
   }
+
   .header {
     width: 100%;
   }
+
   .topnavbar {
     display: flex;
     justify-content: space-between;
     background: #fff;
   }
+
   .logo img {
     width: 150px;
     margin-left: 70px;
   }
+
   .DesktopNav ul {
     display: flex;
     align-items: center;
@@ -227,37 +270,46 @@ p, h2, h3{
     margin-top: 60px;
     margin-right: 50px;
   }
+
   .DesktopNav ul li {
     list-style-type: none;
     margin-right: 40px;
   }
+
   .DesktopNav ul li a {
     text-decoration: none;
     color: #272a31;
     font-size: 19px;
     transition: 0.5s;
   }
+
   .DesktopNav ul li a:hover {
-   color: #ec5242;
+    color: #ec5242;
   }
+
   .DesktopNav ul .bordered {
     color: #ec5242;
     border: 2px solid #ec5242;
     padding: 10px;
   }
+
   .landing {
     margin: 8% 15% 0 15%;
     padding-bottom: 8%;
   }
+
   .landingHeader h3 {
     font-size: 29px;
   }
+
   .landingHeader h1 {
     font-size: 50px;
   }
+
   .landingDesc h2 {
     font-size: 34px;
   }
+
   .landingDesc p {
     font-size: 20px;
   }

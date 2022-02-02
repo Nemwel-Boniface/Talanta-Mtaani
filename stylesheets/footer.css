@@ -1,10 +1,10 @@
-/*This file contains all the styling for the Partners and footer sections for the Talanta mtaani project*/
+/* This file contains all the styling for the Partners and footer sections for the Talanta mtaani project */
 
-/*It was designed with a mobile first approach to design */
+/* It was designed with a mobile first approach to design */
 
 @import url('http://fonts.cdnfonts.com/css/cocogoose');
 
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -18,14 +18,18 @@ body {
 body {
   position: relative;
 }
+
 h1 {
   font-family: 'COCOGOOSE', sans-serif;
-
 }
+
 p {
   font-size: 17px;
 }
-p, h2, h3{
+
+p,
+h2,
+h3 {
   font-family: 'Lato', sans-serif;
 }
 
@@ -40,11 +44,13 @@ p, h2, h3{
   text-align: center;
   padding: 24px 0;
 }
+
 .partnersHeader h2 {
   margin-bottom: 15px;
   color: #fff;
-  font-size: 32px
+  font-size: 32px;
 }
+
 .partnersHeader hr {
   border-bottom: 4px solid #ec5242;
   margin: 0 40%;
@@ -57,8 +63,9 @@ p, h2, h3{
   align-items: center;
   flex-wrap: wrap;
 }
+
 .partnersSect h3 {
-  opacity: .6;
+  opacity: 0.6;
   padding: 8px;
   color: #d3d3d3;
 }
@@ -70,85 +77,98 @@ p, h2, h3{
   display: flex;
   justify-content: center;
 }
+
 .footer .footerLeft {
   flex: 1;
   margin: auto auto;
 }
+
 .footer .footerLeft img {
   max-width: 100%;
   animation: bouge 0.92s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
   animation-iteration-count: 1;
   transform: translateX(0);
 }
+
 .footer .footerRight {
   margin: auto auto;
   flex: 2;
 }
+
 .footerRight p {
   font-size: 17px;
   color: #272a31;
 }
 
 
-/*Responsive design -> Tablet version*/
+/* Responsive design -> Tablet version */
 
-@media screen and (min-width: 768px ) {
+@media screen and (min-width: 768px) {
   .partnersHeader {
     padding-top: 37px;
     text-align: center;
   }
+
   .partnersHeader h2 {
     font-size: 33px;
   }
+
   .partnersHeader hr {
     margin: 0 47%;
   }
+
   .partnersSect {
     display: flex;
     justify-content: center;
     margin: 6% 100px 0 100px;
     padding-bottom: 6%;
   }
+
   .partnersSect h3 {
     font-size: 25px;
   }
+
   .footerRight p {
     font-size: 19px;
+    position: relative;
+    left: 16%;
   }
+
   .footer {
     background: #f1f5f7;
     margin: 0;
     position: relative;
   }
+
   .footerLeft img {
     position: relative;
     left: 45%;
     width: 60%;
     margin-left: 20%;
   }
-  .footerRight p {
-    position: relative;
-    left: 16%;
-  }
 }
 
-/*Responsive design -> Desktop version*/
+/* Responsive design -> Desktop version */
 
-@media screen and (min-width: 1100px ) {
+@media screen and (min-width: 1100px) {
   .partnersHeader {
     padding-top: 40px;
     text-align: center;
   }
+
   .partnersHeader h2 {
     font-size: 35px;
   }
+
   .partnersHeader hr {
     margin: 0 46%;
   }
+
   .partnersSect {
     margin: 6% 16vh 0 16vh;
     padding-bottom: 7%;
   }
+
   .partnersSect h3 {
     font-size: 29px;
   }
