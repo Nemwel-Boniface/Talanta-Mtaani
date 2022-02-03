@@ -56,6 +56,7 @@ body {
   flex-direction: column;
   align-items: center;
   margin: 0 24px;
+  z-index: 6;
 }
 
 .popuplogo {

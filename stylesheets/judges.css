@@ -84,7 +84,7 @@ h3 {
 
 .judgeLeft img {
   max-width: 100%;
-  z-index: 6;
+  z-index: 1;
 }
 
 .judgeLeft .jj {
