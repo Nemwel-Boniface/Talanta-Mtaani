@@ -76,11 +76,14 @@ form textarea {
   width: 100%;
   height: 40%;
   border-width: 1px;
+  border-color: #fff;
   color: #fff;
   padding: 10px;
   margin-bottom: 20px;
 }
-
+::placeholder {
+  color: #fff;
+}
 form button {
   background: none;
   color: #fff;
