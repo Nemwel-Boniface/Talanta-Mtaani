@@ -1,0 +1,94 @@
+@import url('http://fonts.cdnfonts.com/css/cocogoose');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+body {
+  position: relative;
+}
+
+/*actual page styling*/
+
+.popup {
+  display: none;
+  background: linear-gradient(rgba(128, 0, 0, 0.6), rgba(128, 0, 0, 0.7)), url(../../images/crowd2.jpeg);
+  height: 100vh;
+  width: 100%;
+  position: relative;
+}
+
+.closeForm {
+ float: right;
+}
+.closeForm img {
+  width: 25px;
+  position: absolute;
+  top: 4%;
+  right: 7%;
+  cursor: pointer;
+}
+
+.formbody {
+  clear: right;
+  position: absolute;
+  top: 45%;
+  transform: translate(0, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 24px;
+}
+.popuplogo {
+  margin: auto;
+  position: relative;
+  left: 29%;
+}
+.popuplogo img {
+  max-width: 45%;
+}
+form label {
+  color: #d3d3d3;
+}
+form input {
+  outline: 0;
+  border: none;
+  padding: 10px;
+  border-style: none none solid none;
+  border-width: 2px;
+  border-color: #dbd8d7;
+  background: none;
+  margin-bottom: 20px;
+  color: #fff;
+}
+form textarea {
+  outline: 0;
+  background: none;
+  width: 100%;
+  height: 40%;
+  border-width: 1px;
+  color: #fff;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+form button {
+  background: none;
+  color: #fff;
+  padding: 10px;
+  cursor: pointer;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  transition: .5s;
+}
+form button:hover {
+  background: #fff;
+  color: #000;
+}
