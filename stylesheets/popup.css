@@ -13,13 +13,14 @@ body {
 
 body {
   position: relative;
+  overflow: hidden;
 }
 
 /*actual page styling*/
 
 .popup {
   display: none;
-  background: linear-gradient(rgba(128, 0, 0, 0.8), rgba(128, 0, 0, 0.8)), url(../../images/crowd2.jpeg);
+  background: linear-gradient(rgba(128, 0, 0, 0.9), rgba(128, 0, 0, 0.9)), url(../../images/crowd2.jpeg);
   height: 100vh;
   width: 100%;
   position: fixed;
@@ -74,7 +75,7 @@ form textarea {
   outline: 0;
   background: none;
   width: 100%;
-  height: 40%;
+  height: 18vh;
   border-width: 2px;
   border-color: #fff;
   color: #fff;
@@ -89,7 +90,7 @@ form button {
   color: #fff;
   padding: 10px;
   cursor: pointer;
-  border-width: 2px;
+  border-width: 2px solid #fff;
   border-top-right-radius: 20px;
   border-bottom-left-radius: 20px;
   transition: .5s;
