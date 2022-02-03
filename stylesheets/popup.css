@@ -16,10 +16,11 @@ body {
   overflow: hidden;
 }
 
-/*actual page styling*/
+/* actual page styling */
 .desktopHide {
   display: block;
 }
+
 .mobileHide {
   display: none;
 }
@@ -35,8 +36,9 @@ body {
 }
 
 .closeForm {
- float: right;
+  float: right;
 }
+
 .closeForm img {
   width: 25px;
   position: absolute;
@@ -55,17 +57,21 @@ body {
   align-items: center;
   margin: 0 24px;
 }
+
 .popuplogo {
   margin: auto;
   position: relative;
   left: 29%;
 }
+
 .popuplogo img {
   max-width: 40%;
 }
+
 form label {
   color: #d3d3d3;
 }
+
 form input {
   outline: 0;
   border: none;
@@ -77,6 +83,7 @@ form input {
   margin-bottom: 17px;
   color: #fff;
 }
+
 form textarea {
   outline: 0;
   background: none;
@@ -88,19 +95,22 @@ form textarea {
   padding: 10px;
   margin-bottom: 17px;
 }
+
 ::placeholder {
   color: #fff;
 }
+
 form button {
   background: none;
   color: #fff;
   padding: 10px;
   cursor: pointer;
-  border-width: 2px solid #fff;
+  border: 2px solid #fff;
   border-top-right-radius: 20px;
   border-bottom-left-radius: 20px;
-  transition: .5s;
+  transition: 0.5s;
 }
+
 form button:hover {
   background: #fff;
   color: #000;
@@ -112,27 +122,33 @@ form button:hover {
   .desktopHide {
     display: none;
   }
+
   .mobileHide {
     display: block;
   }
+
   .popup {
     position: fixed;
     display: none;
   }
+
   .formbody {
     clear: right;
     position: absolute;
     top: 33%;
   }
+
   .popuplogo {
     margin: auto;
     position: relative;
     top: 20%;
     left: 39%;
   }
+
   .popuplogo img {
     max-width: 20%;
   }
+
   form button {
     cursor: pointer;
   }

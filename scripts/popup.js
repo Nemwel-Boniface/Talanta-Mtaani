@@ -3,12 +3,11 @@ const popupDetails = [
     closeF: 'images/formclose.png',
     logo: 'images/talantamtaanilogo.png',
     submit: 'Get in touch',
-  }
+  },
 ];
 
 const body = document.querySelector('body');
 const openForm = document.getElementById('openForm');
-const closeForm = document.getElementById('closeForm');
 
 const popUp = document.createElement('div');
 popUp.classList.add('popup');
@@ -34,14 +33,14 @@ function displayForm() {
         <button type="submit">${popupDetails[0].submit}</button>
       </form>
     </div> `;
-    popUp.innerHTML = form;
-    body.appendChild(popUp);
+  popUp.innerHTML = form;
+  body.appendChild(popUp);
 
-    document.addEventListener('click', (click) => {
-      if (click.target.id === 'closeForm') {
-        popUp.style.display = 'none';
-      }
-    });
+  document.addEventListener('click', (click) => {
+    if (click.target.id === 'closeForm') {
+      popUp.style.display = 'none';
+    }
+  });
 }
 
 openForm.addEventListener('click', () => {
