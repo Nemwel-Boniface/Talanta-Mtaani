@@ -75,7 +75,7 @@ form textarea {
   background: none;
   width: 100%;
   height: 40%;
-  border-width: 1px;
+  border-width: 2px;
   border-color: #fff;
   color: #fff;
   padding: 10px;
@@ -89,6 +89,7 @@ form button {
   color: #fff;
   padding: 10px;
   cursor: pointer;
+  border-width: 2px;
   border-top-right-radius: 20px;
   border-bottom-left-radius: 20px;
   transition: .5s;
