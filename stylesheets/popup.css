@@ -21,6 +21,12 @@ body {
   display: block;
 }
 
+#error {
+  color: red;
+  display: flex;
+  font-family: 'Roboto', sans-serif;
+}
+
 .mobileHide {
   display: none;
 }
