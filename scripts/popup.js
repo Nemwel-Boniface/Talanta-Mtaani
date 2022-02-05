@@ -30,6 +30,7 @@ function displayForm() {
         <label for="email">Email Address</label><br>
         <input type="email" id="email" name="_replyto" placeholder="example@email.com" required><br>
         <textarea maxlength="500" name="message" placeholder="Hello I am Nemwel. Have something to tell me?"></textarea><br>
+        <small id="error"></small>
         <button type="submit">${popupDetails[0].submit}</button>
       </form>
     </div> `;
@@ -52,3 +53,16 @@ document.addEventListener('click', (click) => {
     popUp.style.display = 'none';
   }
 });
+
+const form = document.getElementById('form');
+
+function formValidate() {
+  const error = document.getElementById('error');
+  const email = document.getElementById('email');
+
+  if (email.value !== email.value.toLowerCase()) {
+    error.innerHTML = `Your email is not in lowercase. Consider using ${email.value.toLowerCase()} instead`;
+    return false;
+  }
+  return true;
+}
